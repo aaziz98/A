@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Abdul Aziz Chowdhury — Portfolio</title>
+  <meta name="description" content="Abdul Aziz Chowdhury — Computer Science graduate. Machine learning, computer vision, infrastructure tech. MSc University of Wollongong." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="" />
+</head>
+<body class="light">
+  <header class="site-header">
+    <div class="container header-grid">
+      <div class="brand">
+        <h1>Abdul Aziz Chowdhury</h1>
+        <p class="tagline">Computer Science Graduate • Machine Learning • Computer Vision</p>
+      </div>
+      <div class="controls">
+        <button id="themeToggle" aria-label="Toggle theme">🌙</button>
+        <a class="btn ghost" href="#contact">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero container">
+      <div class="hero-left">
+        <h2>Hi, I build practical ML solutions for real world problems</h2>
+        <p>
+          MSc in Computer Science — <strong>University of Wollongong Australia</strong>.
+          Computer Science graduate with hands-on experience in machine learning, deep learning, and computer vision applied to infrastructure and safety systems.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="#projects">View Projects</a>
+          <a class="btn outline" href="CV.pdf" download>Download CV</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="card summary">
+          <h3>Quick Facts</h3>
+          <ul>
+            <li><strong>Location</strong> Dhaka, Bangladesh</li>
+            <li><strong>Email</strong> ac.abdulaziz98@gmail.com</li>
+            <li><strong>Phone</strong> +8801749285214</li>
+            <li><strong>Current</strong> MSc Computer Science, University of Wollongong</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <h2>About</h2>
+      <p>
+        I apply machine learning and computer vision to practical problems in infrastructure and safety.
+        My work includes real-time driver drowsiness detection using LSTM and facial landmark analysis, and research on visual pollution classification using object detection models.
+      </p>
+    </section>
+
+    <section id="projects" class="container section">
+      <h2>Featured Projects</h2>
+      <div class="grid projects-grid">
+        <article class="project-card">
+          <h3>Real-Time Driver Drowsiness Detection</h3>
+          <p class="muted">Python • LSTM • MediaPipe • IoT</p>
+          <p>Real-time system analyzing respiratory and facial signals to detect driver fatigue and trigger alerts.</p>
+          <div class="card-footer">
+            <a class="link" href="https://github.com/aaziz98" target="_blank" rel="noopener">View on GitHub</a>
+            <span class="pill">Research</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>Visual Pollution Classification</h3>
+          <p class="muted">Deep Learning • Faster R-CNN • YOLO • Dataset Labeling</p>
+          <p>Research project comparing multiple detection models to classify visual pollution in industrial and urban imagery.</p>
+          <div class="card-footer">
+            <a class="link" href="https://github.com/aaziz98" target="_blank" rel="noopener">View on GitHub</a>
+            <span class="pill">Computer Vision</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>Data Science Portfolio</h3>
+          <p class="muted">Pandas • Scikit-learn • Visualization</p>
+          <p>Collection of EDA and predictive modeling projects for business forecasting and segmentation.</p>
+          <div class="card-footer">
+            <a class="link" href="https://github.com/aaziz98" target="_blank" rel="noopener">View on GitHub</a>
+            <span class="pill">Data Science</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="container section">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <h4>Machine Learning</h4>
+          <p>Deep learning, LSTM, CNNs, object detection</p>
+        </div>
+        <div class="skill">
+          <h4>Computer Vision</h4>
+          <p>OpenCV, MediaPipe, YOLO, Faster R-CNN</p>
+        </div>
+        <div class="skill">
+          <h4>Engineering</h4>
+          <p>IoT integration, real-time processing, dataset labeling</p>
+        </div>
+        <div class="skill">
+          <h4>Tools</h4>
+          <p>Python, PyTorch, TensorFlow, Git, Jupyter</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="container section">
+      <h2>Publications</h2>
+      <div class="card">
+        <h3>Deep-Learning-Based Real-Time Visual Pollution Detection</h3>
+        <p class="muted">Published 11 January 2024</p>
+        <p>Research on automated detection and classification of visual pollution in urban and textile environments using deep learning models.</p>
+        <a class="link" href="#" target="_blank" rel="noopener">View publication</a>
+      </div>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2>Contact</h2>
+      <p>If you want to collaborate or discuss a project, send an email or download my CV.</p>
+      <div class="contact-grid">
+        <div class="card">
+          <h4>Email</h4>
+          <p><a href="mailto:ac.abdulaziz98@gmail.com">ac.abdulaziz98@gmail.com</a></p>
+        </div>
+        <div class="card">
+          <h4>Phone</h4>
+          <p>+8801749285214</p>
+        </div>
+        <div class="card">
+          <h4>Location</h4>
+          <p>Mirpur 6, Dhaka, Bangladesh</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Abdul Aziz Chowdhury — MSc Computer Science University of Wollongong</p>
+      <p><a href="https://github.com/aaziz98">github.com/aaziz98</a> · Repo A</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
